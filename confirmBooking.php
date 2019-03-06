@@ -9,7 +9,7 @@ $renterID = $_GET['rvalue'];
 include 'dbh.php';
 
 	
-	$sql7="UPDATE storage SET rentee_id = '$renteeeeeID' WHERE storage_id = '$storageID'";
+	$sql7="UPDATE storage SET customer_id = '$renteeeeeID' WHERE storage_id = '$storageID'";
 	$retval7 = mysqli_query($conn ,$sql7)or die(mysqli_error($conn));
 	
 	if($retval7==1){

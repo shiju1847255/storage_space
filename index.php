@@ -267,7 +267,7 @@ $_SESSION['svalue']=NULL;
 						    }
 						    else{
 						    	include 'dbh.php';
-
+                                $cust = rand(10,100)
 			               		$sql="INSERT INTO contact(name,email,contact,message) VALUES ('$fname','$email','$contact','$message')";
 
 			                	//$result= mysql_query($sql);

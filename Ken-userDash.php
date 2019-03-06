@@ -253,7 +253,7 @@
 		      		<th>".$row['storage_name']."</th>
                     <th><a href=storageshow.php?bvalue=".$row['storage_id']."> Click here for Storage Info</th>
                     <th>";
-                    if(is_null($row['rentee_id'])){
+                    if(is_null($row['customer_id'])){
                     	echo "Vacant";
                     }
                     else{
@@ -289,7 +289,7 @@
 	  	$std=$_SESSION['id'];
 	  	include 'dbh.php';
 
-	    $sql="SELECT * from storage where rentee_id = '$std'";
+	    $sql="SELECT * from storage where customer_id = '$std'";
 	    $result= mysqli_query($conn ,$sql)or die(mysqli_error($conn));
 
 	    

@@ -1,0 +1,163 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Montserrat;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    background: url(images/login.jpg) no-repeat center;
+    background-size: 100%;
+}
+
+li {
+
+    list-style: none;
+    display: inline-block
+}
+
+a {
+
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+
+    text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.btn {
+
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+
+    background-color: #ededed !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+/*NAVIGATION*/
+
+
+.navbar {
+    
+    background-color: #ffffff !important;
+    padding: 20px;
+    /*text-transform: uppercase;*/
+    /*font-family: Montserrat;*/
+    /*font-weight: 700;*/
+}
+
+.navbar a {
+    
+    color: #212121 !important;
+    /*opacity: 0.8;*/
+}
+
+
+.navbar a:hover {
+    opacity: 1;
+    background-color: #4484ce !important;
+    color: #ffffff !important;
+}
+
+.navbar #navTitle{
+    /*color: #4484ce !important;*/
+    font-size: 2em;
+}
+
+
+/*form*/
+
+body, html{
+     height: 100%;
+    background-repeat: no-repeat;
+    /*background-color: #d3d3d3;*/
+    /*font-family: 'Oxygen', sans-serif;*/
+}
+
+.main{
+    margin-top: 70px;
+}
+
+h1.title { 
+    font-size: 50px;
+    /*font-family: 'Passion One', cursive; */
+    font-weight: 400; 
+}
+
+hr{
+    width: 10%;
+    color: #fff;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+    background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+  border:solid 20px #6699CC;
+
+}
+
+.main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+    margin-top: 5px;
+}
+
+.login-register{
+    font-size: 11px;
+    text-align: center;
+}
+
+
+/*TabNav*/
+
